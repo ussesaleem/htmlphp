@@ -1,0 +1,70 @@
+body {
+    background-color: #e74c3c;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    background-color: white;
+    height: 200px;
+    width: 400px;
+}
+
+header img {
+    width: 200px;
+    float: right;
+}
+
+.site-title {
+    display: block;
+    padding-top: 1em;
+    padding-left: 50px;
+    font-size: 20px;
+    overflow: auto;
+}
+
+.site-slogan {
+    display: block;
+    padding-left: 50px;
+    font-style: italic;
+    overflow: auto;
+}
+
+.site-footer {
+    background-color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.navbar {
+    padding: 1em;
+    background-color: #fff;
+    border-top: 1px solid #000;
+}
+
+.navbar a {
+    background-color: #eee;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #999;
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.helm {
+    width: 250px;
+
+}
+
+footer {
+    background-color: blue;
+    height: 200px
+    width: 400px;
+}

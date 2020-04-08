@@ -1,0 +1,208 @@
+html {
+    background-color: rgba(205, 105, 30, 0.5);
+    overflow-y: scroll;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: auto;
+    padding: 8px;
+}
+
+.site-header {
+    padding: 8px;
+    overflow: auto;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    background-color: rgba(101, 67, 33, 0.75);
+}
+
+
+.navbar {
+    margin-top: 0.5em;
+    position: static;
+    display: inline-block;
+    width: 100%;
+    font-size: 50%;
+}
+
+.navbar a,
+.site-footer a {
+    padding: 5px 7.5px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    width: 10%;
+    background-color: rgba(101, 67, 33, 0.75);
+    border: 1px solid black;
+    float: none;
+}
+
+.about-nav a {
+    display: block;
+    padding: 5px 7.5px;
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+    width: 50%;
+    background-color: rgba(101, 67, 33, 0.75);
+    border: 1px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar a:hover,
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+.navbar .selected,
+.site-footer .selected,
+.about-nav .selected {
+    font-weight: bold;
+}
+
+.bildone,
+.bildtwo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bildone {
+    float: left;
+    width: 15%;
+}
+
+.bildtwo {
+    float: right;
+    width: 20%;
+}
+
+.home {
+    margin: 5px;
+    padding: 10px;
+    background-color: rgba(101, 67, 33, 0.5);
+    min-height: 30em;
+}
+
+.row {
+    padding-left: 100px;
+    margin-top: 100px;
+}
+
+.objectpage {
+    margin: 5px;
+    padding: 8px;
+    width: 50%;
+    background-color: rgba(101, 67, 33, 0.5);
+    min-height: 30em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    float: left;
+}
+
+.about {
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgba(101, 67, 33, 0.5);
+    min-height: 30em;
+    width: 75%;
+}
+
+.about-table {
+    padding-left: 100px;
+    width: 75%;
+}
+
+.home h1,
+.home p,
+.about p,
+.about h4,
+.about h2 {
+    width: 75%;
+    padding-left: 100px;
+}
+
+.objects {
+    text-align: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.objectpage h2 {
+    text-align: center;
+}
+
+.about-nav {
+    float: left;
+    background-color: rgba(101, 67, 33, 0.5);
+    display: block;
+    margin: 5px;
+    padding: 8px;
+    min-height: 30em;
+    width: 20%;
+}
+
+.about-nav h3 {
+    text-align: center;
+}
+
+.site-footer {
+    position: relative;
+    clear: both;
+    height: auto;
+    margin-top: auto;
+    padding: 1em;
+    text-align: center;
+    background-color: rgba(101, 67, 33, 0.75);
+    font-size: 0.5em;
+    border: 1px solid #000;
+}
+
+.profile {
+    float: right;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+
+@media (max-width: 900px) {
+    body {
+        width: auto;
+    }
+
+    .site-header {
+        font-size: 100%;
+    }
+
+    .home,
+    .about {
+        width: auto;
+    }
+
+    .about-nav {
+        min-height: 10em;
+        width: 93%;
+    }
+
+    .objects {
+        width: 50%;
+        margin: inherit;
+    }
+
+    .text .sidebar {
+        float: none;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}

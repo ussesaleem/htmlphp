@@ -1,0 +1,58 @@
+{
+    "details": "Generated for ussa19 at 2019-10-20 14:00:28.",
+    "key": "5774b778b076f9497abfe050b0cf0b4b",
+    "summary": {
+        "questions": 15,
+        "points": 19,
+        "pass": 13,
+        "passdistinct": 19
+    },
+    "points": {
+        "1.1": 1,
+        "1.2": 1,
+        "1.3": 1,
+        "2.1": 1,
+        "2.2": 1,
+        "3.1": 1,
+        "4.1": 1,
+        "4.2": 1,
+        "4.3": 1,
+        "4.4": 1,
+        "5.1": 1,
+        "5.2": 1,
+        "5.3": 1,
+        "6.1": 3,
+        "6.2": 3
+    },
+    "answers": {
+        "1.1": "2004-12-06",
+        "1.2": "2005-03-06",
+        "1.3": "16:14:22",
+        "2.1": "However, the king hoped still to save his dear child altogether from\nthe threatened evil; so he ordered that all the spindles in the kingdom\nshould be bought up and burnt. But all the gifts of the first eleven\nfairies were in the meantime fulfilled; for the princess was so\nbeautiful, and well behaved, and good, and wise, that everyone who knew\nher loved her.",
+        "2.2": "g hoped still to save his",
+        "3.1": [
+            "No matter how har I try, I never seen to run out of bad ideas.",
+            "A fish with no eye is called a fsh.",
+            "People say nothing is impossible, but I do nothing every day.",
+            "Future depends on your dreams, so go to sleep.",
+            "I stepped on a cornflake and now I am a cereal killer.",
+            "Never trust an atom. They make up everything.",
+            "What happens if you get scared half to death twice?"
+        ],
+        "4.1": true,
+        "4.2": "zlCnffjbeq",
+        "4.3": [
+            "Cinderella",
+            "Lady and the Tramp",
+            "Old Yeller",
+            "Treasure Island",
+            "The Jungle Book"
+        ],
+        "4.4": "deb1536f480475f7d593219aa1afd74c",
+        "5.1": "ISO-8859-1",
+        "5.2": "13, 13",
+        "5.3": "13, 10",
+        "6.1": "2004-12-01 13:14:22",
+        "6.2": "However, the king hoped still to save his dear child altogether from the threatened evil; so he ordered that all the spindles in the kingdom should be bought up and burnt. But all the gifts of the first eleven fairies were in the meantime fulfilled; for the princess was so beautiful, and well behaved, and good, and wise, that everyone who knew her loved her."
+    }
+}

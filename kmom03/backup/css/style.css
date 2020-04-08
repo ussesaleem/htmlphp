@@ -1,0 +1,197 @@
+html {
+    background-color: rgba(52, 164, 166, 0.72);
+    overflow-y: scroll;
+}
+
+.me {
+    display: block;
+    float: right;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding-left: 2em;
+}
+
+body {
+    margin: 8px auto;
+    padding: 8px;
+    width: 800px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+}
+
+main {
+    min-height: 30em;
+    background-color: #ecf0f1;
+}
+
+.site-header {
+    background-color: #fff;
+    overflow: auto;
+}
+
+.bild {
+    width: 100px;
+}
+
+.site-header img {
+    float: left;
+}
+
+.site-title {
+    display: block;
+    padding-top: 1em;
+    padding-left: 50px;
+    font-size: 32px;
+    overflow: auto;
+}
+
+.site-slogan {
+    display: block;
+    padding-left: 50px;
+    font-style: italic;
+    overflow: auto;
+}
+
+.navbar {
+    padding: 1em;
+    background-color: #fff;
+    border-top: 1px solid #9c9;
+    justify-content: space-around;
+}
+
+.navbar a {
+    color: #000;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #999;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #eee;
+    text-decoration: underline;
+}
+
+.navbar .selected {
+    background-color: #ccc;
+}
+
+.me-text {
+    display: block;
+    margin: 8px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.me-text p {
+    display: block;
+}
+
+.redovisning {
+    display: block;
+    margin: 8px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.redovisning p {
+    display: block;
+}
+
+.about {
+    display: block;
+    margin: 8px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.about p {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #0019db;
+}
+
+a:hover {
+    color: #f0f;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #00f;
+}
+
+.byline {
+    display: block;
+    border: 1px solid #9c9;
+    padding: 8px;
+    width: 90%;
+    overflow: auto;
+    margin: auto;
+}
+
+.byline img {
+    display: block;
+    width: 70px;
+}
+
+.byline .td-img {
+    width: 70px;
+    padding: 5px 10px;
+    vertical-align: top;
+}
+
+.byline .td-text p {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+.articlebyline p {
+    text-align: right;
+    font-size: 90%;
+}
+
+.site-footer {
+    padding: 1em;
+    background-color: #fff;
+    text-align: center;
+}
+
+.site-footer a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5em;
+    border: 0.5px solid #999;
+}
+
+.site-footer a:hover {
+    background-color: #eee;
+    text-decoration: underline;
+}
+
+@media (max-width: 980px) {
+    body {
+        width: auto;
+        background-color: yellow;
+    }
+
+    .text .sidebar {
+        float: none;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}

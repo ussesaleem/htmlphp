@@ -1,0 +1,142 @@
+html {
+    background-color: #9c9;
+}
+
+.me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+body {
+    margin: 8px auto;
+    padding: 8px;
+    width: 800px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.site-header {
+    background-color: #fff;
+    overflow: auto;
+}
+
+.bild {
+    width: 100px;
+}
+
+.site-header img {
+    float: left;
+}
+
+.site-title {
+    display: block;
+    padding-top: 1em;
+    padding-left: 50px;
+    font-size: 32px;
+    overflow: auto;
+}
+
+.site-slogan {
+    display: block;
+    padding-left: 50px;
+    font-style: italic;
+    overflow: auto;
+}
+
+.navbar {
+    padding: 1em;
+    background-color: #fff;
+    border-top: 1px solid #9c9;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #999;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #eee;
+    text-decoration: underline;
+}
+
+.me-text {
+    display: block;
+    margin: 8px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.me-text p {
+    display: block;
+}
+
+.redovisning {
+    display: block;
+    margin: 8px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.redovisning p {
+    display: block;
+}
+
+.about {
+    display: block;
+    margin: 8px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.about p {
+    display: block;
+}
+
+.byline {
+    display: block;
+    border: 1px solid #9c9;
+    margin-left: 100px;
+    padding: 8px;
+    width: 350px;
+}
+
+.byline img {
+    display: block;
+    width: 70px;
+}
+
+.byline .td-img {
+    width: 70px;
+    padding: 5px 10px;
+    vertical-align: top;
+}
+
+.byline .td-text p {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+.site-footer {
+    padding: 1em;
+    background-color: #fff;
+}
+
+.site-footer a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #999;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    background-color: #eee;
+    text-decoration: underline;
+}
